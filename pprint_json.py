@@ -3,8 +3,8 @@ import json
 
 def load_data(filepath):
     data = None
-    with open(filepath, 'r') as file:
-        data = json.load(file)
+    with open(filepath, 'r') as file_with_json:
+        data = json.load(file_with_json)
     return data
 
 
